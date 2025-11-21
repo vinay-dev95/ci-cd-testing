@@ -1,5 +1,5 @@
 from app.main import add
-from app.main import calculate
+from app.calculate import calculate
 
 def test_add():
     assert add(2, 3) == 5
